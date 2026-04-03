@@ -23,7 +23,7 @@ export default function Featured() {
     <div id="features" className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <img
-          src="/images/mountain-landscape.jpg"
+          src="https://cdn.poehali.dev/projects/63bb09cf-37cf-4141-8138-62a990ebcd9a/files/24b91cea-3f8d-4854-bbc3-a4ac1526cbd8.jpg"
           alt="SEMok VPN — свобода без границ"
           className="w-full h-full object-cover"
         />
