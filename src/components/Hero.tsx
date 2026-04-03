@@ -25,13 +25,29 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="absolute inset-0 bg-black/40 z-[5]" />
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-sm uppercase tracking-[0.3em] mb-4 opacity-70">VPN-сервис нового поколения</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          SEMOK
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-2xl max-w-2xl mx-auto opacity-90 mb-10 leading-relaxed">
+          Свобода в интернете без ограничений.<br/>3 недели бесплатно после скачивания.
         </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="#download"
+            className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
+          >
+            Скачать бесплатно
+          </a>
+          <a
+            href="#pricing"
+            className="border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white/10 transition-colors duration-300"
+          >
+            Тарифы
+          </a>
+        </div>
       </div>
     </div>
   );
