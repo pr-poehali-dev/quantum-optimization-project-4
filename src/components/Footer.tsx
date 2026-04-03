@@ -23,7 +23,7 @@ export default function Footer() {
                   Тарифы
                 </a>
                 <a
-                  href="#download"
+                  href="https://play.google.com/store" target="_blank" rel="noopener noreferrer"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Скачать

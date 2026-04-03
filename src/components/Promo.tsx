@@ -36,7 +36,7 @@ export default function Promo() {
           3 недели бесплатно — просто скачай и пользуйся без ограничений.
         </p>
         <a
-          href="#download"
+          href="https://play.google.com/store" target="_blank" rel="noopener noreferrer"
           className="shrink-0 bg-white text-black px-8 py-4 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300 whitespace-nowrap"
         >
           Скачать SEMok

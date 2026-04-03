@@ -36,7 +36,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="#download"
+            href="https://play.google.com/store" target="_blank" rel="noopener noreferrer"
             className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
           >
             Скачать бесплатно

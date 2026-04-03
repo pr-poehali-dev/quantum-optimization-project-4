@@ -21,7 +21,7 @@ export default function Header({ className }: HeaderProps) {
             Тарифы
           </a>
           <a
-            href="#download"
+            href="https://play.google.com/store" target="_blank" rel="noopener noreferrer"
             className="text-white bg-white/20 hover:bg-white hover:text-black transition-all duration-300 uppercase text-sm px-4 py-1.5 border border-white/50"
           >
             Скачать
